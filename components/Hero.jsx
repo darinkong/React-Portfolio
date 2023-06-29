@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import { AiFillGithub, AiFillWechat, AiOutlineMail } from "react-icons/ai";
-
-import { FiDownload } from "react-icons/Fi";
+import {
+  AiFillGithub,
+  AiFillWechat,
+  AiOutlineMail,
+  AiOutlineDownload,
+} from "react-icons/ai";
 
 import deved from "../public/dev-ed-wave.png";
 
@@ -42,7 +45,7 @@ const Hero = () => {
               download
               className="flex justify-center items-center gap-1 px-1 md:px-2 text-md md:text-lg"
             >
-              {<FiDownload className="mt-1" />}简历
+              {<AiOutlineDownload className="mt-1 text-xl" />}简历
             </a>
           </button>
         </div>
